@@ -1,0 +1,51 @@
+spring:
+   application:
+    name: @artifactId@
+    version: @project.version@
+   datasource:
+     url: ${MORNING_SERVER_DB}
+     username: ${MORNING_USR_DB}
+     password: ${MORNING_PASS_DB}
+     driver: oracle.jdbc.OracleDriver
+     poolName: ${spring.application.name}-pool
+     maximumPoolSize: 200
+     minimumIdle: 10
+     idleTimeoutMs: 300000
+     connectionTimeoutMs: 300000
+     autoCommit: true
+     maxLifetimeMs: 300000
+
+     properties:
+       cachePrepStmts: true
+       prepStmtCacheSize: 256
+       prepStmtCacheSqlLimit: 2048
+       useServerPrepStmts: true
+    
+info:
+  app:
+    version: '@project.version@'
+    name: '@project.name@'
+    description: '@project.description@'
+    environment: ${environment}
+    java:
+      version: '@java.version@'
+    investmentsInventory:  
+      accessDB: 
+        url: ${spring.datasource.url} 
+        username: ${spring.datasource.username}
+        
+management:
+  info: 
+    env:
+      enabled: true
+    
+logging:
+  level:
+    org: 
+      springframework:
+        ws:
+          client:
+            MessageTracing:
+              sent: TRACE
+              received: TRACE
+

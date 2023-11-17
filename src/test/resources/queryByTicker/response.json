@@ -1,0 +1,95 @@
+{
+	"detail": [{
+		"isin": "MX52AC240016",
+		"fundLegalName": "Fondo Actinver Patrimonial 2030 SA de CV F.I.R.V.",
+		"globalCategoryName": "Target Date",
+		"categoryName": "Lifecycle",
+		"ticker": "ACT2030 B-1",
+		"firmName": "Operadora Actinver SA de CV",
+		"netExpenseRatio": "1.46007",
+		"indexFund": false,
+		"minimumInitial": "1",
+		"debtsPercentage": "0",
+		"sharesPercentage": "0",
+		"cashNet": "39.8215",
+		"otherNet": "4.86391",
+		"effectiveDuration": "19.02689",
+		"equityStylebox": "2",
+		"dayEndNav": "238.77909",
+		"sectors": [
+			{
+				"name": "Basic Materials",
+				"value": "0.32739"
+			},
+			{
+				"name": "Consumer Cyclical",
+				"value": "1.32037"
+			}
+		],
+		"countryExposure": [
+			{
+				"country": "Mexico",
+				"value": "80.84735"
+			},
+			{
+				"country": "United States",
+				"value": "18.941174"
+			}
+		],
+		"regionalExposure": [
+			{
+				"region": "United States",
+				"value": "98.895917"
+			},
+			{
+				"region": "Canada",
+				"value": "0"
+			}
+		],
+		"categoryReturn1Day": "0.04578",
+		"categoryReturn1Week": "-1.15120",
+		"categoryReturn1Mth": "-0.99299",
+		"categoryReturn3Mth": "2.17832",
+		"categoryReturn6Mth": "-1.51513",
+		"categoryReturnYTD": "1.08845",
+		"categoryReturn1Yr": "-4.12699",
+		"categoryReturn3Yr": "3.27337",
+		"categoryReturn5Yr": "4.01211",
+		"categoryReturn10Yr": "4.10820",
+		"categoryReturn15Yr": "5.30159",
+		"categoryReturnTotal": "5.30159",
+		"return1Day": "-0.29025",
+		"return1Week": "-2.38970",
+		"return1Mth": "-1.05751",
+		"return3Mth": "4.97863",
+		"return6Mth": "-4.24602",
+		"returnYTD": "-0.01861",
+		"return1Yr": "-5.19884",
+		"return3Yr": "-5.19884",
+		"return5Yr": "-5.19884",
+		"return10Yr": "-5.19884",
+		"return15Yr": "-5.19884",
+		"returnSinceInception": "-4.42348",
+		"cumulativeReturn3Yr": "6.00249",
+		"cumulativeReturn5Yr": "-16.06143",
+		"cumulativeReturn10Yr": "-15.71525",
+		"cumulativeReturn15Yr": "23.57973",
+		"cumulativeReturnSinceInception": "-6.19163",
+		"categoryCumulativeReturn3Yr": "12.88153",
+		"categoryCumulativeReturn5Yr": "21.99484",
+		"categoryCumulativeReturn10Yr": "51.70742",
+		"categoryCumulativeReturn15Yr": "120.02997",
+		"categoryCumulativeReturnTotal": "32708345",
+		"ratingOverall": "4",
+		"instruments": [
+			{
+				"isin": "MX0SGO0000H6",
+				"name": "Gob de Mexico UDIBONO 4% 03/11/50",
+				"weighting": "55.27311",
+				"performance": "0",
+				"currency": "Mexican Peso",
+				"currencyId": "MXN"
+			}
+		]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+    "pipeline": {
+        "stages": [{
+            "dev": {
+                "compile":true,
+                "deploy": true
+            },
+            "qa": {
+                "compile": true,
+                "deploy": true
+            }
+        }]
+    },
+    "artifactInfo": {
+        "group_name": "Test Group",
+        "artifact_name": "ms-investments-inventory-bd",
+        "version": "v1.3.1"
+    },
+    "projectInformation": {
+        "business_owner": "Example"
+    }
+
+}
